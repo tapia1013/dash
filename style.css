@@ -173,7 +173,7 @@ background: linear-gradient(to bottom, #141720 0%,#141720 36%,#141720 36%,#28174
 
 .balance-container {
   background-color: #141a23;
-  height: 80vh;
+  /* height: 80vh; */
   padding: 5rem 3rem;
   color: white;
 }
