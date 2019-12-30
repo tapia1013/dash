@@ -167,12 +167,46 @@ background: linear-gradient(to bottom, #141720 0%,#141720 36%,#141720 36%,#28174
 
 .balance-container {
   background-color: #141a23;
-
+  height: 80vh;
+  padding: 3.5rem 1.5rem;
+  color: white;
 }
 
+.bit-balances {
+  display: grid;
+  grid-template-rows: 1fr 5fr 1fr;
+}
 
+.balance-share {
+  display: flex;
+  width: 100%;
+  max-width: 40%;
+}
 
+.b-text {
+  font-size: 2rem;
+  font-weight:500;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-right: 2rem;
+  padding-top: 0.5rem;
+}
 
+.shr-btn-container {
+    position: absolute;
+}
+.balance-share a {
+  color: white;
+  background-color: #5b149e;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  position: relative;
+  top: 1rem;
+  font-weight: 500;
+  font-size: 1.15rem;
+  letter-spacing: 1px;
+  border: 1px solid #aa11ff;
+}
 
 
 
