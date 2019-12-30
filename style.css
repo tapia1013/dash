@@ -25,7 +25,7 @@ a {
   color: #fbfefe;
   display: flex;
   justify-content: space-between;
-  padding: 3.5rem 1.5rem;
+  padding: 8rem 3rem;
   border-bottom: 1px solid rgba(89, 20, 162, 0.3);
 }
 
@@ -34,15 +34,16 @@ a {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 7rem;
   font-weight: 500;
-  margin-right: 2.5rem;
+  margin-right: 3rem;
+  padding-top:5px;
 }
 
 .fa-search {
   color: #7ccc1b;
-  font-size: 2rem;
-  padding-top: 1rem;
+  font-size: 5rem;
+  padding-top: 2rem;
 }
 
 .r-head {
@@ -51,9 +52,10 @@ h2 {
 .head-btn {
   background-color: #8d16fd;
   color: #fffdff;
-  padding: 1.4rem 3.4rem;
-  font-size: 1.5rem;
-  border-radius: 6px;
+  padding: 2.5rem 5rem;
+  font-size: 4rem;
+  border-radius:10px;
+  font-weight: 800;
   -webkit-box-shadow: 0px 7px 39px 1px rgba(66,40,105,1);
   -moz-box-shadow: 0px 7px 39px 1px rgba(66,40,105,1);
   box-shadow: 0px 7px 39px 1px rgba(66,40,105,1);
@@ -77,7 +79,7 @@ h2 {
 .dates {
   /* height: 100%; */
   background-color: #141a23;
-  padding: 0 0 0 2rem;
+  /* padding: 0 2rem 0 0; */
   color: #fff;
   background: #141720; /* Old browsers */
 background: -moz-linear-gradient(top, #141720 0%, #141720 36%, #141720 36%, #3c1764 100%, #3c1764 100%, #3c1764 101%); /* FF3.6-15 */
@@ -88,14 +90,17 @@ background: linear-gradient(to bottom, #141720 0%,#141720 36%,#141720 36%,#3c176
 .info-container {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr 2fr 1fr;
-  height: 24rem;
+  height: 70rem;
   overflow-x: hidden;
+  width: 100%;
+  padding-top: 3rem;
 }
 
 .box {
   border-right: 1px solid rgba(89, 20, 162, 0.1);
   border-left: 1px solid rgba(89, 20, 162, 0.1);
-  padding: 1.5rem 0 0 1.3rem;
+  padding: 1rem 0 0 1rem;
+
 }
 
 .box.feb {
@@ -107,46 +112,47 @@ background: linear-gradient(to bottom, #141720 0%,#141720 36%,#141720 36%,#28174
 
 .box.feb .date {
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 4.5rem;
   color: #fffeff;
   letter-spacing: 1px;
-  padding-bottom: 2.3rem;
+  padding-bottom: 10rem;
 }
 
 .box .time {
   color: rgba(255,255,255, 0.75);
-  font-size: 1.3rem;
-  margin-bottom: 6rem;
+  font-size: 4.2rem;
+  margin-bottom: 15rem;
 }
 
 .box .time1 {
-  padding-top: 4rem;
+  padding-top: 16.4rem;
   /* margin-bottom: 6rem; */
 }
 
 .box .fa-angle-double-down {
   color: #60da51;
-  font-size: 1.5rem;
+  font-size: 5rem;
 }
 
 .box .fa-angle-double-up {
   color: #ff3a2a;
-  font-size: 1.5rem;
+  font-size: 5rem;
 }
 
 
 .gain {
-  padding-top: 2.5rem;
-  font-size: 1.6rem;
-  font-weight: 400;
-  color: rgba(255,255,255,0.4)
+  padding-top: 3.5rem;
+  font-size: 3.2rem;
+  font-weight: 300;
+  color: rgba(255,255,255,0.3)
 }
 
 
 .total {
-  font-size: 1.8rem;
-  font-weight: 600;
-  padding-top: 1.8rem;
+  font-size: 3.4rem;
+  font-weight: 500;
+  padding-top: 3.8rem;
+  padding-right: 1.8rem;
 }
 
 
