@@ -346,7 +346,7 @@ background: linear-gradient(to bottom, #141720 0%,#141720 36%,#141720 36%,#28174
 
 .qr-btn {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
