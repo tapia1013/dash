@@ -173,8 +173,8 @@ background: linear-gradient(to bottom, #141720 0%,#141720 36%,#141720 36%,#28174
 
 .balance-container {
   background-color: #141a23;
-  height: 80vh;
-  padding: 3.5rem 1.5rem;
+  height: 100vh;
+  padding: 5rem 3rem;
   color: white;
 }
 
@@ -186,32 +186,116 @@ background: linear-gradient(to bottom, #141720 0%,#141720 36%,#141720 36%,#28174
 .balance-share {
   display: flex;
   width: 100%;
-  max-width: 40%;
+  max-width: 45%;
+  margin-bottom: 5rem;
 }
 
 .b-text {
-  font-size: 2rem;
-  font-weight:500;
+  font-size: 4.5rem;
+  font-weight: 600;
   letter-spacing: 2px;
   color: rgba(255, 255, 255, 0.5);
-  margin-right: 2rem;
+  margin-right: 5rem;
   padding-top: 0.5rem;
 }
 
 .shr-btn-container {
     position: absolute;
 }
+
 .balance-share a {
   color: white;
   background-color: #5b149e;
-  padding: 1rem 1.5rem;
-  border-radius: 5px;
+  padding: 2rem 4rem;
+  border-radius: 10px;
   position: relative;
-  top: 1rem;
+  top: 1.5rem;
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: 5px;
+  border: 1.2px solid #aa11ff;
+  outline: none;
+}
+
+
+.bit-type {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.bit-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.bit-box .bit-left {
+  display: grid;
+  grid-template-columns: 1fr 1fr 5fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.dot.purple {
+  background-color: #a915fd;
+}
+
+.dot.orange {
+  background-color: #fa7607;
+}
+
+.dot.green {
+  background-color: #79d822;
+}
+
+.dot.teal {
+  background-color: #00e3fa;
+}
+
+.fab {
+  font-size: 5rem;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.bit-box .bit-left h4 {
+  margin-left: 2rem;
+  font-size: 4.2rem;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.bit-box .bit-right {
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+}
+
+.bit-box .bit-right span {
+  font-size: 5rem;
+  letter-spacing: 4px;
   font-weight: 500;
-  font-size: 1.15rem;
-  letter-spacing: 1px;
-  border: 1px solid #aa11ff;
+}
+
+.bit-box .bit-right .purple {
+  color: #a915fd;
+}
+
+.bit-box .bit-right .orange {
+  color: #fa7607;
+}
+
+.bit-box .bit-right .green {
+  color: #79d822;
+}
+
+.bit-box .bit-right .teal {
+  color: #00e3fa;
 }
 
 
@@ -234,31 +318,47 @@ background: linear-gradient(to bottom, #141720 0%,#141720 36%,#141720 36%,#28174
 
 
 
+.wallet-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
 
+.left-wallet h4 {
+  font-size: 3.8rem;
+  color: rgba(255,255,255,0.3);
+  font-weight: 500;
+  margin-bottom: 1.8rem;
+  letter-spacing: 2px;
+}
 
 
+.left-wallet p {
+  font-size: 4.3rem;
+  font-weight: 400;
+}
+
+.fa-file {
+  color: #8813d3;
+  padding-left: 5px;
+}
 
 
+.qr-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.view-qr {
+  font-size: 3.6rem;
+  font-weight: 200;
+  border: 3px solid #2c2e47;
+  padding: 2.9rem 4rem;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 2px;
+}
 
 
 
